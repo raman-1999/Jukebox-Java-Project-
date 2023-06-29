@@ -80,7 +80,4 @@ public class AllGenres  extends DaoImpl
         return songByGenre;
     }
 
-//    public static void main(String[] args) {
-////        System.out.println(allGenreSongs("Rock"));
-//    }
 }
