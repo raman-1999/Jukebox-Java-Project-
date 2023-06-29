@@ -1,0 +1,72 @@
+create database if not exists jukebox;
+
+use jukebox;
+
+create table songs(songId int primary key auto_increment, 
+songName varchar(255) not null, 
+artistName varchar(255) not null, 
+genre varchar(255) not null, 
+albumName varchar(255) not null, 
+duration varchar(5) not null, 
+url text not null); 
+
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Frozen","2Scratch","Trap","FROZEN","3:44","C://Jukebox-Java-Project-//src//main//resources//Frozen.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Zones","Zak Downtown","Hip-Hop","Dream Soda","3:12","C://Jukebox-Java-Project-//src//main//resources//Zones.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Fire Burns","KillSwitch Engage","Metal","As Daylight Dies","3:13","C://Jukebox-Java-Project-//src//main//resources//Fire_Burns.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Broken Dreams","Green Day","Rock","American Idiot","4:27","C://Jukebox-Java-Project-//src//main//resources//Broken_Dreams.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Polozhenie","Night Lovell","Trap","HKTN","3:03","C://Jukebox-Java-Project-//src//main//resources//Polozhenie.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Something In The Way","Nirvana","Orchestral","Nevermind","3:51","C://Jukebox-Java-Project-//src//main//resources//Something_In_The_Way.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Everybody Knows","Sigrid","Pop","Justice League","4:32","C://Jukebox-Java-Project-//src//main//resources//Everybody_Knows.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Seven Nation Army","The White Stripes","Rock","Elephant","3:51","C://Jukebox-Java-Project-//src//main//resources//Seven_Nation_Army.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("Blacksmith","Nekki","Metal","Shadow","1:21","C://Jukebox-Java-Project-//src//main//resources//Blacksmith.wav");
+insert into songs(songName,
+artistName , 
+genre, 
+albumName , 
+duration, 
+url) values("As We Fall","Mako","Rock","LoL","3:09","C://Jukebox-Java-Project-//src//main//resources//As_We_Fall.wav");
